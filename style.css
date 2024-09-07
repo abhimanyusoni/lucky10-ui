@@ -1,0 +1,358 @@
+* {
+  font-family: "Poppins", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.button-general {
+  background-color: #ff8200;
+  border-radius: 10px;
+  padding: 5px 50px 4px;
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid #ff8200;
+  transition: 0.15s all ease-in-out;
+}
+.button-general:hover {
+  background-color: transparent;
+  color: #ff8200;
+}
+
+.container {
+  max-width: 800px;
+  padding: 0 50px;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    margin: 10px 0;
+  }
+}
+
+.newsletter-main {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  background-color: #002421;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  position: relative;
+}
+@media (max-width: 800px) {
+  .newsletter-main {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+.newsletter-main .top-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.newsletter-main .logo-main {
+  position: relative;
+  padding-top: 80px;
+}
+@media (max-width: 575px) {
+  .newsletter-main .logo-main {
+    padding-top: 60px;
+  }
+}
+.newsletter-main .logo-main img {
+  max-width: 62%;
+}
+@media (max-width: 575px) {
+  .newsletter-main .logo-main img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter-main .logo-main img {
+    max-width: 90%;
+  }
+}
+.newsletter-main .namings {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 35px;
+}
+@media (max-width: 575px) {
+  .newsletter-main .namings {
+    margin-top: 22px;
+  }
+}
+.newsletter-main .namings p {
+  margin-bottom: 5px;
+}
+.newsletter-main .welcome-offer {
+  border-radius: 10px;
+  background: linear-gradient(0deg, #041f18, #051f16);
+}
+.newsletter-main .welcome-offer img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .newsletter-main .welcome-offer .text {
+    padding: 0 15px 20px !important;
+  }
+}
+.newsletter-main .welcome-offer .text p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+@media (max-width: 800px) {
+  .newsletter-main .welcome-offer .text p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .newsletter-main .welcome-offer .text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter-main .welcome-offer .text p {
+    font-size: 14px;
+  }
+}
+.newsletter-main .welcome-offer .text h3,
+.newsletter-main .welcome-offer .text h4 {
+  font-weight: 700;
+}
+.newsletter-main .welcome-offer .text h4 {
+  font-size: 35px;
+  line-height: 1.1;
+}
+@media (max-width: 800px) {
+  .newsletter-main .welcome-offer .text h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .newsletter-main .welcome-offer .text h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter-main .welcome-offer .text h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 380px) {
+  .newsletter-main .welcome-offer .text h4 {
+    font-size: 16px;
+  }
+}
+.newsletter-main .welcome-offer .text h3 {
+  font-size: 65px;
+  line-height: 1.1;
+}
+@media (max-width: 800px) {
+  .newsletter-main .welcome-offer .text h3 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .newsletter-main .welcome-offer .text h3 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter-main .welcome-offer .text h3 {
+    font-size: 32px;
+    line-height: 1.6;
+  }
+}
+@media (max-width: 380px) {
+  .newsletter-main .welcome-offer .text h3 {
+    font-size: 28px;
+  }
+}
+.newsletter-main .howit-works {
+  padding-bottom: 70px;
+}
+.newsletter-main .howit-works .wrapper {
+  background-color: #01382b;
+  border-radius: 12px;
+  padding: 20px 15px;
+  height: 100%;
+}
+.newsletter-main .howit-works .wrapper img {
+  max-width: 75px;
+  display: block;
+  margin: auto;
+  height: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 14px;
+}
+
+.top-games {
+  background-color: #0d2f2c;
+  padding: 50px 0;
+}
+.top-games p {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media (max-width: 480px) {
+  .top-games p {
+    font-size: 14px;
+  }
+}
+.top-games h3 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1;
+}
+@media (max-width: 575px) {
+  .top-games h3 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .top-games h3 {
+    font-size: 26px;
+  }
+}
+.top-games .desc {
+  font-size: 14px;
+  line-height: 2;
+  text-transform: unset;
+  margin-top: 15px;
+}
+.top-games .wrapper {
+  margin-top: 25px;
+}
+.top-games .wrapper img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .top-games .wrapper img {
+    height: auto;
+  }
+}
+.top-games .wrapper button {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.loyalty-section {
+  padding: 50px 0;
+}
+.loyalty-section .graphic {
+  max-width: 550px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.loyalty-section .graphic img {
+  width: 100%;
+}
+.loyalty-section h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+@media (max-width: 575px) {
+  .loyalty-section h5 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .loyalty-section h5 {
+    font-size: 14px;
+  }
+}
+.loyalty-section h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+@media (max-width: 575px) {
+  .loyalty-section h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .loyalty-section h3 {
+    font-size: 30px;
+  }
+}
+.loyalty-section button {
+  padding: 4px 70px;
+}
+
+footer {
+  position: relative;
+}
+footer .footer-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+@media (max-width: 480px) {
+  footer .footer-icons {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom center;
+       object-position: bottom center;
+  }
+}
+footer .footer-logo {
+  padding: 150px 20px 40px;
+}
+footer .footer-logo img {
+  max-width: 350px;
+  width: 100%;
+}
+footer .footer-bottom {
+  background-color: #03322e;
+  padding: 30px 0;
+  position: relative;
+  z-index: 9;
+}
+footer .footer-bottom p {
+  font-size: 12px;
+  line-height: 2.2;
+}
+footer .footer-bottom span {
+  font-style: italic;
+}
+footer .footer-bottom .social {
+  margin: 30px 0;
+}
+footer .footer-bottom .social a {
+  margin: 0 5px;
+}/*# sourceMappingURL=style.css.map */
